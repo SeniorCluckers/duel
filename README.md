@@ -1,0 +1,3 @@
+## Duel
+
+A duel plugin.
