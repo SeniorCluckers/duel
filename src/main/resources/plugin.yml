@@ -1,0 +1,6 @@
+name: Duel
+version: '${version}'
+main: com.seniorcluckers.duel.Duel
+api-version: 1.19
+authors: [ SeniorCluckers ]
+description: A duel plugin.
