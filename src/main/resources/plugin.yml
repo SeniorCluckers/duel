@@ -2,7 +2,7 @@ name: Duel
 version: '${version}'
 main: com.seniorcluckers.duel.Duel
 api-version: 1.19
-authors: [ SeniorCluckers ]
+authors: [ SeniorCluckers, Insprill ]
 description: A duel plugin.
 commands:
   duel:

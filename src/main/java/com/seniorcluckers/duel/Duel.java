@@ -7,8 +7,15 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Duel extends JavaPlugin {
 
+    @Getter
+    private static Duel instance;
+
     @Override
     public void onEnable() {
+        this.instance = this;
+
+        getServer().getPluginManager().registerEvents(new InventoryRuleListener(), this);
+
         // Plugin startup logic
         MatchManager.init();
         getCommand("duel").setExecutor(new DuelCommand());
@@ -21,4 +28,5 @@ public final class Duel extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
     }
+
 }
