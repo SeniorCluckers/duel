@@ -4,3 +4,6 @@ main: com.seniorcluckers.duel.Duel
 api-version: 1.19
 authors: [ SeniorCluckers ]
 description: A duel plugin.
+commands:
+  duel:
+    description: "Main command for duel plugin."
